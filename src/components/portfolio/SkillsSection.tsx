@@ -23,7 +23,7 @@ export function SkillsSection() {
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
               {category.skills.map(([name, icon]) => (
                 <div data-skill key={name} className="skill-tile">
-                  <Icon icon={icon} />
+                  <Icon icon={icon}/>
                   <span>{name}</span>
                 </div>
               ))}

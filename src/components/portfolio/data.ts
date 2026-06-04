@@ -64,7 +64,7 @@ export const skillCategories = [
     title: "LEARNING NOW",
     skills: [
       ["Node.js", "devicon:nodejs"],
-      ["REST APIs", "mdi:api"],
+      ["Express.js", "devicon:express"],
       ["PostgreSQL", "devicon:postgresql"],
     ],
   },
